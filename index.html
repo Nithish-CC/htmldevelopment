@@ -20,6 +20,39 @@
 			.btn-primary {
 				color: black;
 			}
+
+			.grid {
+				display: grid;
+				background-color: beige;
+				/* free  */
+				grid-template-columns: 1fr auto auto auto;
+				/* mobile  col-sm-12 ==> */
+				grid-template-columns: auto;
+				/* table col-md-6 col-md-6 */
+				grid-template-columns: auto auto;
+				/* laptop col-lg-4 col-lg-4 col-lg-4*/
+				grid-template-columns: auto auto auto;
+			}
+			.section1 {
+				border: 1px solid black;
+				background-color: dodgerblue;
+				padding: 30px;
+			}
+			.section2 {
+				border: 1px solid black;
+				background-color: rgb(149, 186, 224);
+				padding: 30px;
+			}
+			.section3 {
+				border: 1px solid black;
+				background-color: rgb(199, 159, 244);
+				padding: 30px;
+			}
+			.section4 {
+				border: 1px solid black;
+				background-color: rgb(192, 255, 252);
+				padding: 30px;
+			}
 		</style>
 	</head>
 	<body>
@@ -90,11 +123,13 @@
 		<!-- class -->
 		<!-- .button -->
 
-		<div>
-			<div class="header"></div>
-			<div class="section 1"></div>
-			<div class="section 2"></div>
-			<div class="footer"></div>
+		<div class="grid">
+			<div class="section1">section1</div>
+			<div class="section2">section2</div>
+			<div class="section3">section3</div>
+			<div class="section4">section4</div>
 		</div>
+
+		<a href="tel:+9132432423432">call now</a>
 	</body>
 </html>
