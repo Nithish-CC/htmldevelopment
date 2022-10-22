@@ -1,0 +1,50 @@
+const fruits = ['apple','mango','grapes'];
+
+const vegtables = ['tomato','brinjal'];
+
+//['apple','mango','grapes','tomato','brinjal']
+//prototype
+
+console.log(fruits.concat(vegtables))
+
+const combinedFruitVeg = [...fruits,...vegtables];
+
+//Functions
+// es6
+
+// function add(){
+//     console.log(1+2)
+// }
+
+// //arrow function =>
+// const a = 1 
+// const b = 2
+
+
+const add1 = (a,b) => console.log(a+b)
+console.log(add1(3,5))
+
+
+// array length
+console.log(combinedFruitVeg.length)
+console.log(combinedFruitVeg[0],"::::");
+
+//map 
+combinedFruitVeg.map((temp,pos) => console.log(temp,`:::::${pos}`))
+
+
+// forEach
+combinedFruitVeg.forEach((temp,pos) => console.log(temp,`*******${pos}`))
+
+//filter
+const filteredResult = combinedFruitVeg.filter((temp,pos) => temp==='apple');
+
+console.log(1=='1')
+console.log(1==='1')
+console.log(filteredResult);
+
+const numbers = [0,1,2,3,4,5,6,7,8,9]
+console.log("5::::::"+"6:::::::"+"7:::::::::")
+console.log(numbers.filter((val)=>val > 4).map((values)=>values).join("::::::"))
+
+

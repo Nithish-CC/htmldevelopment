@@ -1,0 +1,71 @@
+.landingPage {
+	position: absolute;
+	right: 0;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: cover;
+	background-position: 100%;
+	top: 0;
+	background-color: hsla(26, 5%, 70%, 0.2);
+}
+
+.logo {
+	height: 125px;
+	width: 200px;
+	transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+	opacity: 1;
+	fill: #fc8019;
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.loginSignupRow {
+	height: 100%;
+	display: flex;
+	justify-content: end;
+}
+
+.text-align-right {
+	text-align: right;
+}
+
+.h2Heading {
+	line-height: 40px;
+	letter-spacing: -0.3px;
+	color: #686b78;
+	font-weight: 400;
+}
+
+.findFood {
+	color: #fff;
+	background-color: #fc8019;
+	box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+	font-size: 16px;
+}
+
+.findFood:hover {
+	color: #fff;
+	background-color: #ff7300;
+}
+
+.location_btn {
+	border-color: lightgray;
+}
+
+.odd {
+	font-weight: 600;
+	font-size: 16px;
+	margin-right: 8px;
+	color: #686b78;
+	line-height: 1.5;
+	text-decoration: none;
+}
+
+.even {
+	font-weight: 600;
+	font-size: 16px;
+	margin-right: 8px;
+	color: #a2a2a2;
+	line-height: 1.5;
+	text-decoration: none;
+}
